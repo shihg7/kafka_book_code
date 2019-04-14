@@ -8,9 +8,6 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.collection.JavaConversions
 
-/**
-  * Created by 朱小厮 on 2019-03-04.
-  */
 object RDDWithKafka {
   private val brokers = "localhost:9092"
   private val topic = "topic-spark"

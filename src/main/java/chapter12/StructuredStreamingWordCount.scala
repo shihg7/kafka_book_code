@@ -4,7 +4,6 @@ import org.apache.spark.sql.SparkSession
 
 /**
   * 代码清单12-4
-  * Created by 朱小厮 on 2019-03-04.
   */
 object StructuredStreamingWordCount {
   def main(args: Array[String]): Unit = {

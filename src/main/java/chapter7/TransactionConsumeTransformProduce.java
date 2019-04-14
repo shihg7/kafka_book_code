@@ -14,7 +14,6 @@ import java.util.*;
 
 /**
  * 代码清单7-3
- * Created by 朱小厮 on 2018/10/18.
  */
 public class TransactionConsumeTransformProduce {
     public static final String brokerList = "10.198.197.73:9092";

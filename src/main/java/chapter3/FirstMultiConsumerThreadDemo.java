@@ -12,7 +12,6 @@ import java.util.Properties;
 
 /**
  * 代码清单 3-11
- * Created by 朱小厮 on 2018/8/25.
  */
 public class FirstMultiConsumerThreadDemo {
     public static final String brokerList = "localhost:9092";

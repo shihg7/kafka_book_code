@@ -20,7 +20,6 @@ import static java.util.stream.Collectors.toList;
 
 /**
  * 代码清单10-2
- * Created by 朱小厮 on 2018/10/21.
  */
 @Slf4j
 public class KafkaConsumerGroupService {

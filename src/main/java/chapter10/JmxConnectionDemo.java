@@ -8,7 +8,6 @@ import java.io.IOException;
 
 /**
  * 代码清单10-1
- * Created by 朱小厮 on 2018/10/20.
  */
 public class JmxConnectionDemo {
     private MBeanServerConnection conn;

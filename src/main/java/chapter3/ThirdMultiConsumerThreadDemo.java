@@ -16,7 +16,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 代码清单3-12
- * Created by 朱小厮 on 2018/8/25.
  */
 public class ThirdMultiConsumerThreadDemo {
     public static final String brokerList = "localhost:9092";

@@ -11,9 +11,6 @@ import java.util.Random;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by 朱小厮 on 2018/7/19.
- */
 public class KafkaProducerDemo {
     public static final String brokerList = "localhost:9092";
     public static final String topic = "topic-spark";

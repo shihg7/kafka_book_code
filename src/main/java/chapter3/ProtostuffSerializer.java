@@ -9,9 +9,7 @@ import org.apache.kafka.common.serialization.Serializer;
 
 import java.util.Map;
 
-/**
- * Created by 朱小厮 on 2018/7/26.
- */
+
 public class ProtostuffSerializer implements Serializer<Company> {
     public void configure(Map<String, ?> configs, boolean isKey) {
     }

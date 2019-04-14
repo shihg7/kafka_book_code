@@ -10,7 +10,6 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
   * 代码清单12-3
-  * Created by 朱小厮 on 2019-03-04.
   */
 object StreamingWithKafka {
   private val brokers = "localhost:9092"

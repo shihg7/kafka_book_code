@@ -16,7 +16,6 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 代码清单9-2
- * Created by 朱小厮 on 2018/10/24.
  */
 public class WordCountDemo {
 

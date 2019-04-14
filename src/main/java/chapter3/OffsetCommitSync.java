@@ -10,9 +10,7 @@ import java.util.Arrays;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/**
- * Created by 朱小厮 on 2018/7/29.
- */
+
 public class OffsetCommitSync {
     public static final String brokerList = "localhost:9092";
     public static final String topic = "topic-demo";

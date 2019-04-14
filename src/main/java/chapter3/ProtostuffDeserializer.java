@@ -8,9 +8,7 @@ import org.apache.kafka.common.serialization.Deserializer;
 
 import java.util.Map;
 
-/**
- * Created by 朱小厮 on 2018/7/26.
- */
+
 public class ProtostuffDeserializer implements Deserializer<Company> {
     public void configure(Map<String, ?> configs, boolean isKey) {
 

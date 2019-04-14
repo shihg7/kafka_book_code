@@ -9,7 +9,6 @@ import org.apache.spark.streaming.kafka010.LocationStrategies.PreferConsistent
 import org.apache.spark.streaming.{Minutes, Seconds, StreamingContext}
 
 /**
-  * Created by 朱小厮 on 2018/8/16.
   * demo: http://spark.apache.org/docs/2.3.1/streaming-kafka-0-10-integration.html
   */
 object KafkaWordCount {

@@ -7,7 +7,6 @@ import java.util.concurrent.ExecutionException;
 
 /**
  * 代码清单4-3 & 4-4
- * Created by 朱小厮 on 2018/7/21.
  */
 public class KafkaAdminTopicOperation {
     public static final String brokerList = "localhost:9092";

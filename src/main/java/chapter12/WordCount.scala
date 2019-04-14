@@ -4,7 +4,6 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * 代码清单12-1
-  * Created by 朱小厮 on 2019-03-04.
   */
 object WordCount {
   def main(args: Array[String]): Unit ={

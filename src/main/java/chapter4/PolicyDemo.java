@@ -7,7 +7,6 @@ import java.util.Map;
 
 /**
  * 代码清单4-6
- * Created by 朱小厮 on 2018/10/3.
  */
 public class PolicyDemo implements CreateTopicPolicy {
     public void configure(Map<String, ?> configs) {
