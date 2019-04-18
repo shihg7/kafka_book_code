@@ -15,6 +15,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class DemoPartitioner implements Partitioner {
     private final AtomicInteger counter = new AtomicInteger(0);
 
+    // partition（）方法用来计算分区号，返回值为int 类型。partition（）方法中的参数分别表示
+    // 主题、键、序列化后的键、值、序列化后的值，以及集群的元数据信息，通过这些信息可以实现功能
+    // 丰富的分区器。
     @Override
     public int partition(String topic, Object key, byte[] keyBytes,
                          Object value, byte[] valueBytes, Cluster cluster) {

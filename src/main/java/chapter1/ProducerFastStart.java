@@ -20,7 +20,7 @@ public class ProducerFastStart {
                 "org.apache.kafka.common.serialization.StringSerializer");
         properties.put("bootstrap.servers", brokerList);
 
-        // 自己直生产者客户端参数并创建KafkaProducer 实例
+        // 配置生产者客户端参数并创建KafkaProducer 实例
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
         // 构建所需妥发送的消息
         ProducerRecord<String, String> record = new ProducerRecord<>(topic, "hello, Kafka!");

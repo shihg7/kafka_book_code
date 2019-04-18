@@ -13,6 +13,7 @@ import java.util.Map;
 public class StringSerializer implements Serializer<String> {
     private String encoding = "UTF8";
 
+    // 用来确定编码类型
     @Override
     public void configure(Map<String, ?> configs, boolean isKey) {
         String propertyName = isKey ? "key.serializer.encoding" : "value.serializer.encoding";
@@ -23,6 +24,7 @@ public class StringSerializer implements Serializer<String> {
             encoding = (String) encodingValue;
     }
 
+    // 将String 类型转为byte[]类型
     @Override
     public byte[] serialize(String topic, String data) {
         try {
